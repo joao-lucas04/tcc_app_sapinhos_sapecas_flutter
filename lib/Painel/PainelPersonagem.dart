@@ -90,14 +90,14 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen> {
                                   Text(
                                     'Naturalidade: ${widget.personagem.naturalidade}',
                                     style: TextStyle(
-                                        fontSize: 12,
+                                        fontSize: 11,
                                         fontWeight: FontWeight.bold),
                                   ),
                                   SizedBox(width: 10),
                                   Text(
                                     'Ocupação: ${widget.personagem.ocupacao}',
                                     style: TextStyle(
-                                        fontSize: 12,
+                                        fontSize: 11,
                                         fontWeight: FontWeight.bold),
                                   ),
                                 ],
