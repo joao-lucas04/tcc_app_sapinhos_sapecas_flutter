@@ -73,11 +73,11 @@ class _MenuScreenState extends State<MenuScreenCenario> {
         child: GridView.builder(
           itemCount: cenarios.length, // Número total de itens no grid
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, // Número de colunas no grid
+            crossAxisCount: 1, // Número de colunas no grid
             crossAxisSpacing: 8.0, // Espaço horizontal entre os cards
             mainAxisSpacing: 8.0, // Espaço vertical entre os cards
             childAspectRatio:
-                0.84, // Proporção de largura para altura dos itens
+                1.8, // Proporção de largura para altura dos itens
           ),
           itemBuilder: (context, index) {
             final cenario = cenarios[index];
