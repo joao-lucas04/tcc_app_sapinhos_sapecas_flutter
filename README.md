@@ -9,3 +9,6 @@
 
 ## Descrição
 O **Guia de Jogo - Sapinhos Sapecas** é um aplicativo móvel desenvolvido em Flutter para fornecer informações detalhadas sobre o jogo **Sapinhos Sapecas**. O aplicativo tem como objetivo ajudar os jogadores a entender a história, os personagens, e as mecânicas do jogo, além de oferecer funcionalidades interativas, como quizzes e dicas. Link para os Tópicos da Wiki:
+
+- [Diagramação](https://github.com/joao-lucas04/tcc_app_sapinhos_sapecas_flutter/wiki/Diagramação)
+- [Scripts](https://github.com/joao-lucas04/tcc_app_sapinhos_sapecas_flutter/wiki/Scripts)
