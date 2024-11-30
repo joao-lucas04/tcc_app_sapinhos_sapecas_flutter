@@ -78,17 +78,17 @@ List<Personagem> getPersonagens() {
 
   //Aqui será da martinha
   personagens.add(Personagem(
-    nome: 'Felipe Melo Mosca',
-    idade: '17 dias',
-    altura: '20.0',
-    peso: '0.10',
-    naturalidade: 'Vale do Pantanal',
-    ocupacao: 'Engenheiro',
-    apelido: 'Melo / Moscardo / Mosca',
-    imageUrl: 'assets/img/personagens/melo.jpg',
-    gifUrl: "assets/img/personagens/melo.jpg",
-    imageUrlPerfil: 'assets/img/perfil/melo.jpg',
-    CorPrincipal: Color.fromARGB(255,114,117,108)
+    nome: 'Marta Brasilia Sapo',
+    idade: '4 anos',
+    altura: '23.0',
+    peso: '7.5',
+    naturalidade: 'Vila do Brejo',
+    ocupacao: 'Nenhuma',
+    apelido: 'Marta / Matinha / Jogadora',
+    imageUrl: 'assets/img/personagens/martinha.jpg',
+    gifUrl: "assets/img/personagens/martinha.jpg",
+    imageUrlPerfil: 'assets/img/perfil/martinha.jpg',
+    CorPrincipal: Color.fromARGB(255,212,169,199)
   ));
 
   //Melo
@@ -197,6 +197,19 @@ List<Personagem> getPersonagens() {
   ));
 
   //Tio Luxo
+  personagens.add(Personagem(
+    nome: 'Luxo Sapo',
+    idade: '10 anos',
+    altura: '30',
+    peso: '8',
+    naturalidade: 'Vila do Brejo',
+    ocupacao: 'Desempregado',
+    apelido: 'Tio / Luxo / Sumido',
+    imageUrl: 'assets/img/personagens/TioLuxo.jpg',
+    gifUrl: "assets/img/personagens/TioLuxo.jpg",
+    imageUrlPerfil: 'assets/img/perfil/TioLuxo.jpg',
+    CorPrincipal: Color.fromARGB(255,174,141,210)
+  ));
 
   return personagens;
 }

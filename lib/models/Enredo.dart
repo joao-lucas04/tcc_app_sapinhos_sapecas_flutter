@@ -45,9 +45,15 @@ List<Enredo> getEnredos() {
   ));
 
   enredos.add(Enredo(
-    historia: 'Depois de decidirem, eles olham o horizonte da Vila do Brejo e veem o próximo desafio diante de seus olhos. Essa será uma longa jornada, mas não faltará determinação aos irmãos. Qual será o final dessa incrível história?',
+    historia: 'Após uma longa jornada repleta de desafios e dificuldades, eles finalmente encontraram seu amado tio. Em sinal de gratidão, ele presenteou cada um com algo especial: um Playstation, um cinturão do Cururu do Bronxs e uma camisa do PSG (Paris Sapos Grande).',
     titulo: '6° Quadrinho',
     imageUrl: 'assets/img/enredo/CenaFinal1.png',
+  ));
+
+  enredos.add(Enredo(
+    historia: 'Parece que finalmente descobrimos o final da história! Após uma longa jornada de desafios e batalhas, nossos protagonistas alcançaram o objetivo final e trouxeram paz à Vila do Brejo, que nunca mais será atormentada por essa gangue de insetos!',
+    titulo: '7° Quadrinho',
+    imageUrl: 'assets/img/enredo/CenaFinal2.png',
   ));
 
   return enredos;

@@ -16,63 +16,68 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreenEnredo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // Envolve a imagem e o ícone em um Stack
-            Stack(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(left: 9, right: 9, top: 9),
-                  child: ClipRRect(
-                      borderRadius: BorderRadius.circular(20),
-                      child: Image.network(widget.enredo.imageUrl,
-                          height: 400, fit: BoxFit.cover)),
-                ),
-                Positioned(
-                  left: 20,
-                  top: 20,
-                  child: IconButton(
-                    icon: Icon(
-                      Icons.arrow_back,
-                      color: Colors.white,
-                      size: 30.0,
-                    ),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => MenuScreenEnredo(),
-                        ),
-                      );
-                    },
-                  ),
-                ),
-              ],
-            ),
-            SizedBox(height: 30),
-            Padding(
-              padding: const EdgeInsets.only(left: 30, right: 30),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+      body: Container(
+        color: const Color.fromARGB(
+            255, 143, 224, 120),
+            constraints: BoxConstraints.expand(), // Cor de fundo para toda a página
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Envolve a imagem e o ícone em um Stack
+              Stack(
                 children: [
-                  Text(widget.enredo.titulo,
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  SizedBox(
-                    height: 5,
+                  Padding(
+                    padding: const EdgeInsets.only(left: 9, right: 9, top: 9),
+                    child: ClipRRect(
+                        borderRadius: BorderRadius.circular(20),
+                        child: Image.network(widget.enredo.imageUrl,
+                            height: 400, fit: BoxFit.cover)),
                   ),
-                  Text(
-                    widget.enredo.historia,
-                    style: TextStyle(fontSize: 14),
-                  )
+                  Positioned(
+                    left: 20,
+                    top: 20,
+                    child: IconButton(
+                      icon: Icon(
+                        Icons.arrow_back,
+                        color: Colors.white,
+                        size: 30.0,
+                      ),
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => MenuScreenEnredo(),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
                 ],
               ),
-            ),
-          ],
+              SizedBox(height: 30),
+              Padding(
+                padding: const EdgeInsets.only(left: 30, right: 30),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(widget.enredo.titulo,
+                        style: TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.bold)),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      widget.enredo.historia,
+                      style: TextStyle(fontSize: 14),
+                    )
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
-      )
+      ),
     );
   }
 }
