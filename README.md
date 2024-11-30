@@ -1,4 +1,4 @@
-# Guia Mobile - Sapinhos Sapecas
+# Projeto Mobile - Sapinhos Sapecas
 
 ![Banner do Projeto](https://github.com/user-attachments/assets/a659c8f3-e217-45ae-bac0-af4f3e44df46)
 
